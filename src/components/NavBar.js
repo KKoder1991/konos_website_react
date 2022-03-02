@@ -19,7 +19,6 @@ export default function Navbar(){
                     </a>
                     <a href="#contact" className="mr-5 hover:text-white">
                         Hire Me
-                        <ArrowRightIcon className="w-4 h-4 ml-1" />
                     </a>
                 </nav>
             </div>

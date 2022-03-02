@@ -40,19 +40,19 @@ export default function Contact(){
                         style={{ filter: "opacity(0.7" }}
                         src="https://www.google.com/maps/embed/v1/place?q=65+lohmühlenstraße&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
-                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-green-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 ADDRESS
                             </h2>
-                            <p className="mt-1">
+                            <p className="mt-1 text-white">
                                 65 Lohmühlenstraße <br />
                                 Berlin, Berlin 10405
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">1623820287</p>
+                            <p className="leading-relaxed text-white">1623820287</p>
                         </div>
                     </div>
                 </div>
@@ -82,6 +82,8 @@ export default function Contact(){
                     </div>
                     <div className="relative mb-4">
                         <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                            E-mail
+                        </label>
                             <input
                                 type="email"
                                 id="email"
@@ -89,7 +91,6 @@ export default function Contact(){
                                 className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 onChange={(e) => setEmail(e.target.value)}
                             />
-                        </label>
                     </div>
                     <div className="relative mb-4">
                         <label 
