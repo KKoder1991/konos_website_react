@@ -34,7 +34,7 @@ export default function Contact(){
                     name="contact"
                     onSubmit={handleSubmit}
                     className="flex flex-col justify-center">
-                    <h2 className="text-green-700 sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    <h2 className="text-green-700 text-center sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Contact
                     </h2>
                     <p className="leading-relaxed mb-5">
